@@ -1,3 +1,5 @@
+a = 2
+b = 3
 print("coucou les mous")
-print("somme de 1+2=", 1+2)
+print("somme de a+b=", a+b)
 print("test commit")
