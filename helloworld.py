@@ -3,4 +3,4 @@ b = 3
 print("coucou les mous")
 print("somme de a+b=", a+b)
 print("test commit")
-print("Python", "est", "amusant", sep="-", end="!/n")
+print("Python", "est", "amusant", sep="-", end="!\n")
