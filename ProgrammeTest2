@@ -1,0 +1,16 @@
+#Programme de test de connection V2
+
+LOGIN1 = "RMechety&"
+PSWD1 = "mdp123"
+LOGIN2 = "JY&"
+PSWD2 = "BG77540"
+
+if "RMechety" == LOGIN1 and "mdp123" == PSWD1:
+    print("Vous êtes connectés")
+    
+elif "JY" == LOGIN2 and "BG77540" == PSWD2:
+    print("Vous êtes connectés")
+
+ elif       
+
+else: print("Vous n'êtes pas connus de nos services")

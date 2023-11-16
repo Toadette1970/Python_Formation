@@ -1,0 +1,13 @@
+#Pour tout les nombes de 0 à 100
+#Quand le nombre est divisible par 3 on print fizz
+#Quand le nombre est divisible par 3 on print buzz
+#Quand le nombre est divisible par 3 et 5 on print fizz buzz
+
+for i in range (101):
+    if i%3 == 0 and i%5 == 0:
+        print ("fizz buzz")
+    elif i%3 == 0:
+        print ("fizz")
+    elif i%5 == 0:
+        print ("buzz")
+    else: print(i)

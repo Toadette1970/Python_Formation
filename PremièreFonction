@@ -1,0 +1,23 @@
+def saluer():
+    print("Bonjour tout le monde")
+
+saluer()
+saluer()
+
+#Fonction affiche la somme
+Nb1 = 1
+Nb2 = 2
+
+def afficherSomme(PremiereValeur =0, DeuxiemeValeur =0):
+    # Résultat = PremiereValeur + DeuxiemeValeur
+    # print(f"La somme est égale à : {Résultat}")
+    somme = PremiereValeur + DeuxiemeValeur
+    # print(f"La somme est égale à : {PremiereValeur + DeuxiemeValeur}")
+    return somme
+
+afficherSomme(Nb1, Nb2)
+afficherSomme(Nb1)
+Resultat = afficherSomme(7, 8)
+print (Resultat)
+Resultat = afficherSomme(Nb2)
+print (Resultat)
