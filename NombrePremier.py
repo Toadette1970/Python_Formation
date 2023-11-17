@@ -2,7 +2,7 @@ import math
 
 #file = open("FichierNP",'r')
 
-Nb_Premiers = [  ]
+Liste_Nb_Premiers = [  ]
 Nb_a_tester = 2
 
 def is_prime(n):
@@ -11,16 +11,16 @@ def is_prime(n):
             return False
     return True
 
-while len(Nb_Premiers)  <= 100:
+while len(Liste_Nb_Premiers)  <= 100:
     if is_prime(Nb_a_tester) == True:
         Nb_Premiers.append(Nb_a_tester)
     else:
         pass
     Nb_a_tester +=1
 
-for MonNombre in Nb_Premiers:
-    print(f"{MonNombre}")
-
+for ContenuDunElementdeLaListe in Liste_Nb_Premiers:  #On parcourt chaque Element et on le prend pour ensuite l'afficher
+    #print(f"{ContenuDunElementdeLaListe}")
+    print(f" N°{Liste_Nb_Premiers.index} = {ContenuDunElementdeLaListe}")
 
 #for i,visiteur in enumerate(visiteurs): 
     # visiteurs[i] = "je ne sais quoi"
